@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetwork", "NeuralNetwork\NeuralNetwork.csproj", "{F7484F39-A0BA-4481-8A4E-A88F2CF8A06B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageScan", "ImageScan\ImageScan.csproj", "{9BE2EBE6-535A-4192-85A7-285EA8C7EB41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7484F39-A0BA-4481-8A4E-A88F2CF8A06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7484F39-A0BA-4481-8A4E-A88F2CF8A06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7484F39-A0BA-4481-8A4E-A88F2CF8A06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7484F39-A0BA-4481-8A4E-A88F2CF8A06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE2EBE6-535A-4192-85A7-285EA8C7EB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE2EBE6-535A-4192-85A7-285EA8C7EB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE2EBE6-535A-4192-85A7-285EA8C7EB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE2EBE6-535A-4192-85A7-285EA8C7EB41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {549D6236-20FA-49FF-8F5A-136BDDFFA609}
+	EndGlobalSection
+EndGlobal

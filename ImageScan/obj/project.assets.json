@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NeuralNetwork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/NeuralNetwork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NeuralNetwork.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NeuralNetwork/1.0.0": {
+      "type": "project",
+      "path": "../NeuralNetwork/NeuralNetwork.csproj",
+      "msbuildProject": "../NeuralNetwork/NeuralNetwork.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "NeuralNetwork >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DaniilSkLi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\MyProjects\\Visual Studio\\NeuralNetwork\\ImageScan\\ImageScan.csproj",
+      "projectName": "ImageScan",
+      "projectPath": "D:\\MyProjects\\Visual Studio\\NeuralNetwork\\ImageScan\\ImageScan.csproj",
+      "packagesPath": "C:\\Users\\DaniilSkLi\\.nuget\\packages\\",
+      "outputPath": "D:\\MyProjects\\Visual Studio\\NeuralNetwork\\ImageScan\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DaniilSkLi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\MyProjects\\Visual Studio\\NeuralNetwork\\NeuralNetwork\\NeuralNetwork.csproj": {
+              "projectPath": "D:\\MyProjects\\Visual Studio\\NeuralNetwork\\NeuralNetwork\\NeuralNetwork.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
